@@ -9,33 +9,41 @@
     box-sizing: border-box;
     /*margin-right: 10px;*/
 }
+
 .image {
     max-width: 460px;
 
 }
+
 .top {
     height: 15%;
-    display:flex;
+    display: flex;
 }
+
 .label {
     width: 10%;
 
 }
+
 #im {
-    max-width:100%;
-    max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
 }
+
 .name {
     width: 90%;
     display: flex;
 }
+
 .l {
     width: 50%;
 }
+
 .content {
     width: 50%;
      background-size: 100% 100%;
 }
+
 #myname {
     font-family: Sans-serif;
     font-weight: normal;
@@ -45,67 +53,90 @@
     margin-bottom: 2px;
 
 }
+
 #mytitle {
     font-family: Sans-serif;
     font-weight: normal;
     color: grey;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 50px;
 }
+
 .middle {
     height: 48%;
     overflow: hidden;
     margin-left: 50px;
 }
-.bottom {
-    margin-top: 0px;
-    height: 42%;
-    /*display: flex;*/
+
+#cat {
+    max-width: 100%;
 }
+
+.bottom {
+    margin-top: 0;
+    height: 42%;
+}
+
 .bottomtitle {
     height: 10%;
 }
+
 #featurework {
     font-family: Sans-serif;
     font-weight: normal;
     color: grey;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 .bottomcontent {
-    margin-top: 0px;
-    height:80%;
+    margin-top: 0;
+    height: 80%;
     display: flex;
+    flex-wrap: wrap;
+    height: auto;
 }
-.firstcol {
-    width: 33%;
+@media (max-width: 768px) {
+    .firstcol {
+        width: 100%;
+    }
+
+    .secondcol {
+        width: 100%;
+    }
+
+    .thirdcol {
+        width: 100%;
+    }
+
 }
-.secondcol {
-    width: 33%;
-}
-.thirdcol {
-    width: 33%;
-}
+
+
 .pic {
-    height:65%;
+    height: 65%;
 }
+
 .photo {
-    max-width:100%;
-    max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
 }
+
 .piccaption {
     height: 35%;
 }
+
 .capcontent {
     margin-left: 48px;
     font-family: Sans-serif;
     font-weight: lighter;
     color: grey;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
+
 .url {
     font-size: small;
 }
+
 .square1 {
     width: 50px;
     height: 50px;
@@ -113,6 +144,7 @@
     margin-left: 29%;
     margin-top: 50px;
 }
+
 .square2 {
     width: 50px;
     height: 50px;
@@ -120,6 +152,7 @@
     margin-left: 29%;
     margin-top: 20px;
 }
+
 .square3 {
     width: 50px;
     height: 50px;
@@ -127,21 +160,24 @@
     margin-left: 29%;
     margin-top: 20px;
 }
+
 .description {
     max-width: 705px;
 }
+
 .app {
     display: flex;
 }
+
 .all {
     display: flex;
 }
+
 .right {
     width: 80%;
 }
-.left {
-    width:17%;
-}
-.title {
 
+.left {
+    width: 17%;
 }
+
