@@ -41,7 +41,7 @@
 
 .content {
     width: 50%;
-     background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
 #myname {
@@ -112,9 +112,9 @@
 }
 
 
-.pic {
+/*.pic {
     height: 65%;
-}
+}*/
 
 .photo {
     max-width: 100%;
